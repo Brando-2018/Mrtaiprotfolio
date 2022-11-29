@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}      
+
+header{
+    text-align: center;
+    background-color:rgb(54, 164, 172);
+    margin-top: -20px
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 225px;
+    list-style: none;
+    background-color:rgb(54, 164, 172);
+}
+
+.aboutme{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainpic{
+    width: 200px;
+    min-height: auto;
+}   
+
+.pictext{
+     margin-left: auto;
+     font-size: medium;
+}
+
+.folio-big {
+    text-align: center;
+    background-color: lightgrey;
+}
+ 
+.bigpic{
+    width: 350px;
+    min-height: auto;
+}
+
+.four-portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  background-color: lightgrey;
+  gap: 25px
+}
+
+.folio-small {
+    margin-left: 100px;
+}
+
+.minipics{
+    width: 300px;
+    min-height: auto;
+}
+
+#contactme{
+    text-align: center;
+    background-color:rgb(54, 164, 172);
+}
+
+.Contact-info{
+    display: flex;
+    display: flexbox; 
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: -30px;
+}
+
+@media screen and (max-width: 520px) {
+    .mainpic{
+        float: left;
+        width:auto;
+        min-height: auto;
+    }
+    .pictext{
+        text-align: wrap;
+        font-size: medium;
+   }   
+}
